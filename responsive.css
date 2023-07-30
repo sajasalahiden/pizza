@@ -1,0 +1,100 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+/* @media (min-width: 992px) {
+  .container {
+    width: 970px;
+  } */
+
+/* Large */
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}  */
+
+
+@media (max-width : 992px) {
+    nav {
+        display: none;
+      }
+   .bar-icon{
+        display: block;
+      }
+      .hero .container .content p{  
+        opacity: 1;
+      }
+      main .hero  .container .word{
+background-color: white;      
+margin-top: 100px;
+
+}
+.socail-links{
+margin-bottom: 130px;
+
+
+}
+      .content .primary-btn{
+        margin-bottom: 210px;
+      }
+     .myimg img{
+        width: 40vw;
+        height: 500px;
+        margin-right: 70px;
+      }
+      .contactTtwo{
+       width: 300px;
+        right: 20px;
+        bottom: 30px;
+      }
+      .footer {
+        width: 100%;padding: 0 50px;padding-top: 100px;
+      }
+      .cartone {
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+}
+  }
+  @media (max-width:722px) {
+    .contactTtwo{
+      display: none;
+    }
+    .main .hero  .container .word
+    {
+font-size: .5rem;
+
+
+    }
+    .ourfood {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+      .ourfood .myimg img {
+      width: 90vw;
+      margin: 50px 0;
+      height: auto;
+    }
+    .plansimgs {
+    flex-direction: column;
+}
+    .plansimgs img {
+    width: 60vw;
+}
+.footer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+  }
